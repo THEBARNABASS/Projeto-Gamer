@@ -1,0 +1,28 @@
+/* Importar Fonts */
+@font-face {
+    font-family: titillium-web-black;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MOBILE */
+@media screen and  (  max-width: 375px ) {
+ 
+}
+header .header-top .phone {
+    
+}
