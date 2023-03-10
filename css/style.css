@@ -18,11 +18,56 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* body */
 
-/* MOBILE */
-@media screen and  (  max-width: 375px ) {
- 
+body{
+    color: white;
+    background-color: #1b1b1b;
 }
-header .header-top .phone {
-    
+
+
+/* classes genericas */
+.layout-grid{
+ border: 1px solid salmon;
+ width: 90%;
+ height: 100%;
+ margin: 0 auto;
+}
+
+.alinhamento-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: #1b1b1b;
+    height: 60px;
+}
+
+header .header-top {
+  display: none;
+}
+
+header .header-bot img.logo{
+width: 86px;
+}
+
+header .header-bot nav, .menu-usuarios {
+    display: none;
+}
+header .header-bot nav {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 80vw;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 1px solid white;
 }
